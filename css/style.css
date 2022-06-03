@@ -66,6 +66,9 @@ nav{
     min-height: 620px;
     padding:100px 7.5% 50px;
     filter: grayscale(1);
+
+    display: flex;
+    align-items: center;
 }
 
 /* About Section */
@@ -101,4 +104,37 @@ nav{
 .experience-div{
     padding-top: 50px;
 }
+
+/* Education Section */
+
+#education .row {
+    padding-top: 50px;
+}
+
+.educatin-column{
+    padding: 20px;
+}
+
+/* photography section */
+
+#photography .padding{
+    padding-top: 0;
+}
+
+.photography-image{
+    width: 70%;
+    height: auto;
+}
+
+/* videography section */
+
+.youtube-video{
+    width: 60%;
+    aspect-ratio: 16 / 9;
+}
+
+/* footer section */
+
+
+
 /* smaller screens  */

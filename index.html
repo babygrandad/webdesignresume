@@ -45,8 +45,10 @@
       </nav>
 
       <div id="home" class="landing">
-        <h1>Relebogile Sean Nkotswe</h1>
-        <p>Web Developer | UI Designer | Photographer</p>
+        <div>
+          <h1>Relebogile Sean Nkotswe</h1>
+          <p>Web Developer | UI Designer | Photographer</p>
+        </div>
       </div>
     </div>
 
@@ -66,14 +68,14 @@
             videos and enjoys colourful themes.</p>
           <p>Fiddling with computers, coding, playing video games, watching anime, meeting new people, and taking a long
             walk in the evening while listening to LO-FI music are just a few of BabyGrandad's hobbies. Oh, and he likes
-            a scrumptious cup of coffee or a luscious papaya.</p>
+            a creamy cup of coffee or a juicy papaya.</p>
         </div>
       </div>
     </section>
 
     <section id="skills" class="center-aligned">
       <h2>Skills</h2>
-      <div id="skills-carousel" class="carousel slide" data-bs-ride="true">
+      <div id="skills-carousel" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -168,25 +170,142 @@
       </div>
     </section>
 
-    <section id="education">
-      
+    <section id="education" class="center-aligned padding">
+      <h2>Education</h2>
+      <div class="row">
+        <div class="educatin-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header bg-secondary">
+              <i class="fa-solid fa-code fa-2x"></i>
+              <h3>Software Development</h3>
+            </div>
+            <div class="card-body bg-dark">
+              <h2 class="education-year">Current</h2>
+              <p>Currently studying software development at Code Space Academy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="educatin-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header bg-secondary">
+              <i class="fa-solid fa-building-columns fa-2x"></i>
+              <h3>Diploma in Systems development</h3>
+            </div>
+            <div class="card-body bg-dark">
+              <h2 class="education-year">2018</h2>
+              <p>NQF Level 6 Diploma in Systems Development obtained at Boston City Campus & Business College.</p>
+            </div>
+          </div>
+        </div>
+        <div class="educatin-column col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-header bg-secondary">
+              <i class="fa-solid fa-school fa-2x"></i>
+              <h3>Bachelor Pass (Matric NSC)</h3>
+              <h3></h3>
+            </div>
+            <div class="card-body bg-dark">
+              <h2 class="education-year">2015</h2>
+              <p>Bachelor Pass National Senior Certificate obtained at Reašoma Secondary School.</p>
+            </div>
+        </div>
+      </div>
     </section>
 
-    <section id="photography">
-
+    <section id="photography" class="center-aligned">
+      <h2>Photography</h2>
+      <div id="photography-carouel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item padding active">
+            <img class="photography-image" src="images/work/photography/Work (1).jpg" alt="dog-profile">
+          </div>
+          <div class="carousel-item padding">
+            <img class="photography-image" src="images/work/photography/Work (2).jpg" alt="dog-profile">
+          </div>
+          <div class="carousel-item padding">
+            <img class="photography-image" src="images/work/photography/Work (3).jpg" alt="dog-profile">
+          </div>
+          <div class="carousel-item padding">
+            <img class="photography-image" src="images/work/photography/Work (4).jpg" alt="dog-profile">
+          </div>
+          <div class="carousel-item padding">
+            <img class="photography-image" src="images/work/photography/Work (5).jpg" alt="dog-profile">
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#photography-carouel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#photography-carouel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
-    <section id="videography">
-
+    <section id="videography" class="center-aligned">
+      <h2>Videography</h2>
+      <div id="testimonials-carouel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <iframe class="youtube-video" src="https://www.youtube.com/embed/llAQyd99uoA" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="carousel-item">
+            <iframe class="youtube-video" src="https://www.youtube.com/embed/0X5O0N9mUek" title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carouel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carouel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
-    <section id="contact-me">
-
+    <section id="contact-me" class="padding center-aligned">
+      <h2>Contact Me</h2>
+      <form action="" method="post">
+        <div class="row">
+          <div class="col-md-7 m-auto pt-5">
+            <div class="row g-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="full Name">
+              </div>
+              <div class="col">
+                <input type="email" class="form-control" id="" placeholder="Email Address">
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Subject" aria-label="subject">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" name="" id="" rows="4" placeholder="Your message goes here..." aria-label="message area"></textarea>
+              </div>
+              <div class="col-12 center-aligned">
+                <button type="submit" class="btn btn-outline-warning ">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
     </section>
 
   </main>
 
-  <footer id="socials">
+  <footer id="socials" class="center-aligned paddng">
+    <h2>Get in touch</h2>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="">linked-in</a></li>
+      <li class="list-inline-item"><a href="">instagram</a></li>
+      <li class="list-inline-item"><a href="">facebook</a></li>
+      <li class="list-inline-item"><a href="">twitter</a></li>
+      <li class="list-inline-item"><a href="">youtube</a></li>
+    </ul>
   </footer>
 
 
